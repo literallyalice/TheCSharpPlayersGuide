@@ -1,0 +1,15 @@
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\bin\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.exe
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\bin\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.deps.json
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\bin\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.runtimeconfig.json
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\bin\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\bin\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.pdb
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\obj\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.csproj.AssemblyReference.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\obj\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\obj\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.AssemblyInfoInputs.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\obj\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.AssemblyInfo.cs
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\obj\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.csproj.CoreCompileInputs.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\obj\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\obj\Debug\net7.0\refint\P56-TheFourSistersAndTheDuckbear.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\obj\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.pdb
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\obj\Debug\net7.0\P56-TheFourSistersAndTheDuckbear.genruntimeconfig.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P56-TheFourSistersAndTheDuckbear\obj\Debug\net7.0\ref\P56-TheFourSistersAndTheDuckbear.dll

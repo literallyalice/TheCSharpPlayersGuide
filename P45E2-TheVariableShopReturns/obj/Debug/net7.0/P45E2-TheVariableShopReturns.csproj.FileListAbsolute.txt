@@ -1,0 +1,15 @@
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\bin\Debug\net7.0\P45E2-TheVariableShopReturns.exe
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\bin\Debug\net7.0\P45E2-TheVariableShopReturns.deps.json
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\bin\Debug\net7.0\P45E2-TheVariableShopReturns.runtimeconfig.json
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\bin\Debug\net7.0\P45E2-TheVariableShopReturns.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\bin\Debug\net7.0\P45E2-TheVariableShopReturns.pdb
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\obj\Debug\net7.0\P45E2-TheVariableShopReturns.csproj.AssemblyReference.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\obj\Debug\net7.0\P45E2-TheVariableShopReturns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\obj\Debug\net7.0\P45E2-TheVariableShopReturns.AssemblyInfoInputs.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\obj\Debug\net7.0\P45E2-TheVariableShopReturns.AssemblyInfo.cs
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\obj\Debug\net7.0\P45E2-TheVariableShopReturns.csproj.CoreCompileInputs.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\obj\Debug\net7.0\P45E2-TheVariableShopReturns.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\obj\Debug\net7.0\refint\P45E2-TheVariableShopReturns.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\obj\Debug\net7.0\P45E2-TheVariableShopReturns.pdb
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\obj\Debug\net7.0\P45E2-TheVariableShopReturns.genruntimeconfig.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E2-TheVariableShopReturns\obj\Debug\net7.0\ref\P45E2-TheVariableShopReturns.dll

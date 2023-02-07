@@ -1,0 +1,15 @@
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\bin\Debug\net7.0\P26-ConsolasAndTelim.exe
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\bin\Debug\net7.0\P26-ConsolasAndTelim.deps.json
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\bin\Debug\net7.0\P26-ConsolasAndTelim.runtimeconfig.json
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\bin\Debug\net7.0\P26-ConsolasAndTelim.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\bin\Debug\net7.0\P26-ConsolasAndTelim.pdb
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\obj\Debug\net7.0\P26-ConsolasAndTelim.csproj.AssemblyReference.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\obj\Debug\net7.0\P26-ConsolasAndTelim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\obj\Debug\net7.0\P26-ConsolasAndTelim.AssemblyInfoInputs.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\obj\Debug\net7.0\P26-ConsolasAndTelim.AssemblyInfo.cs
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\obj\Debug\net7.0\P26-ConsolasAndTelim.csproj.CoreCompileInputs.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\obj\Debug\net7.0\P26-ConsolasAndTelim.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\obj\Debug\net7.0\refint\P26-ConsolasAndTelim.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\obj\Debug\net7.0\P26-ConsolasAndTelim.pdb
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\obj\Debug\net7.0\P26-ConsolasAndTelim.genruntimeconfig.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P26-ConsolasAndTelim\obj\Debug\net7.0\ref\P26-ConsolasAndTelim.dll

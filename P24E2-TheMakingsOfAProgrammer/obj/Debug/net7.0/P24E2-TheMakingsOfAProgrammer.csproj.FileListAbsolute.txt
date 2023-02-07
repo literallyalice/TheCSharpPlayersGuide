@@ -1,0 +1,15 @@
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\bin\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.exe
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\bin\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.deps.json
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\bin\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.runtimeconfig.json
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\bin\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\bin\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.pdb
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\obj\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.csproj.AssemblyReference.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\obj\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\obj\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.AssemblyInfoInputs.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\obj\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.AssemblyInfo.cs
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\obj\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.csproj.CoreCompileInputs.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\obj\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\obj\Debug\net7.0\refint\P24E2-TheMakingsOfAProgrammer.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\obj\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.pdb
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\obj\Debug\net7.0\P24E2-TheMakingsOfAProgrammer.genruntimeconfig.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P24E2-TheMakingsOfAProgrammer\obj\Debug\net7.0\ref\P24E2-TheMakingsOfAProgrammer.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "P24E2-TheMakingsOfAProgrammer/1.0.0": {
+        "runtime": {
+          "P24E2-TheMakingsOfAProgrammer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P24E2-TheMakingsOfAProgrammer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

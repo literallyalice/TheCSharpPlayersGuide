@@ -1,0 +1,15 @@
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\bin\Debug\net7.0\P45E1-TheVariableShop.exe
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\bin\Debug\net7.0\P45E1-TheVariableShop.deps.json
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\bin\Debug\net7.0\P45E1-TheVariableShop.runtimeconfig.json
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\bin\Debug\net7.0\P45E1-TheVariableShop.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\bin\Debug\net7.0\P45E1-TheVariableShop.pdb
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\obj\Debug\net7.0\P45E1-TheVariableShop.csproj.AssemblyReference.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\obj\Debug\net7.0\P45E1-TheVariableShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\obj\Debug\net7.0\P45E1-TheVariableShop.AssemblyInfoInputs.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\obj\Debug\net7.0\P45E1-TheVariableShop.AssemblyInfo.cs
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\obj\Debug\net7.0\P45E1-TheVariableShop.csproj.CoreCompileInputs.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\obj\Debug\net7.0\P45E1-TheVariableShop.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\obj\Debug\net7.0\refint\P45E1-TheVariableShop.dll
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\obj\Debug\net7.0\P45E1-TheVariableShop.pdb
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\obj\Debug\net7.0\P45E1-TheVariableShop.genruntimeconfig.cache
+C:\Users\olofh\RiderProjects\TheCSharpPlayersGuide\P45E1-TheVariableShop\obj\Debug\net7.0\ref\P45E1-TheVariableShop.dll
