@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P57-TheDominionOfKings", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P68-TheDefenseOfConsolas", "P68-TheDefenseOfConsolas\P68-TheDefenseOfConsolas.csproj", "{73355C57-C444-43FD-AF22-04E11FA3BA40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P75-RepairingTheClocktower", "P75-RepairingTheClocktower\P75-RepairingTheClocktower.csproj", "{C5C1E685-9D9B-4B34-B7BF-5DE517A5A68E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P78-Watchtower", "P78-Watchtower\P78-Watchtower.csproj", "{EBF18F83-0386-4906-BADF-4A2E5C111400}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +76,14 @@ Global
 		{73355C57-C444-43FD-AF22-04E11FA3BA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73355C57-C444-43FD-AF22-04E11FA3BA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73355C57-C444-43FD-AF22-04E11FA3BA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C1E685-9D9B-4B34-B7BF-5DE517A5A68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C1E685-9D9B-4B34-B7BF-5DE517A5A68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C1E685-9D9B-4B34-B7BF-5DE517A5A68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C1E685-9D9B-4B34-B7BF-5DE517A5A68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF18F83-0386-4906-BADF-4A2E5C111400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF18F83-0386-4906-BADF-4A2E5C111400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF18F83-0386-4906-BADF-4A2E5C111400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF18F83-0386-4906-BADF-4A2E5C111400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
