@@ -26,6 +26,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P75-RepairingTheClocktower"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P78-Watchtower", "P78-Watchtower\P78-Watchtower.csproj", "{EBF18F83-0386-4906-BADF-4A2E5C111400}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P82-BuyingInventory", "P82-BuyingInventory\P82-BuyingInventory.csproj", "{E1C5DB96-A016-463D-943A-05533D1942A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P83-DiscountedInventory", "P83-DiscountedInventory\P83-DiscountedInventory.csproj", "{3591B12D-D709-44ED-A98E-83B6D15D05C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,6 +88,14 @@ Global
 		{EBF18F83-0386-4906-BADF-4A2E5C111400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBF18F83-0386-4906-BADF-4A2E5C111400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBF18F83-0386-4906-BADF-4A2E5C111400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C5DB96-A016-463D-943A-05533D1942A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C5DB96-A016-463D-943A-05533D1942A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C5DB96-A016-463D-943A-05533D1942A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C5DB96-A016-463D-943A-05533D1942A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3591B12D-D709-44ED-A98E-83B6D15D05C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3591B12D-D709-44ED-A98E-83B6D15D05C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3591B12D-D709-44ED-A98E-83B6D15D05C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3591B12D-D709-44ED-A98E-83B6D15D05C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
