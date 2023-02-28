@@ -30,6 +30,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P82-BuyingInventory", "P82-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P83-DiscountedInventory", "P83-DiscountedInventory\P83-DiscountedInventory.csproj", "{3591B12D-D709-44ED-A98E-83B6D15D05C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P88-ThePrototype", "P88-ThePrototype\P88-ThePrototype.csproj", "{F74459C8-6B88-4C5E-B779-45584925AC25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P89-TheMagicCannon", "P89-TheMagicCannon\P89-TheMagicCannon.csproj", "{9E88D946-DA43-434D-8E2C-FC94A105DE1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P94-TheReplicatorOfDTo", "P94-TheReplicatorOfDTo\P94-TheReplicatorOfDTo.csproj", "{1C6723BD-D744-45A3-A8EF-2FD0593A6D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P124-HuntingTheManticore", "P124-HuntingTheManticore\P124-HuntingTheManticore.csproj", "{BC2EAD56-3339-4F17-9BF7-D57A61C20E2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,6 +104,22 @@ Global
 		{3591B12D-D709-44ED-A98E-83B6D15D05C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3591B12D-D709-44ED-A98E-83B6D15D05C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3591B12D-D709-44ED-A98E-83B6D15D05C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74459C8-6B88-4C5E-B779-45584925AC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74459C8-6B88-4C5E-B779-45584925AC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74459C8-6B88-4C5E-B779-45584925AC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74459C8-6B88-4C5E-B779-45584925AC25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E88D946-DA43-434D-8E2C-FC94A105DE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E88D946-DA43-434D-8E2C-FC94A105DE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E88D946-DA43-434D-8E2C-FC94A105DE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E88D946-DA43-434D-8E2C-FC94A105DE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6723BD-D744-45A3-A8EF-2FD0593A6D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6723BD-D744-45A3-A8EF-2FD0593A6D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6723BD-D744-45A3-A8EF-2FD0593A6D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6723BD-D744-45A3-A8EF-2FD0593A6D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC2EAD56-3339-4F17-9BF7-D57A61C20E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2EAD56-3339-4F17-9BF7-D57A61C20E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2EAD56-3339-4F17-9BF7-D57A61C20E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2EAD56-3339-4F17-9BF7-D57A61C20E2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
