@@ -44,9 +44,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P143-SimulasSoup", "P143-Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P154-VinFletchersArrows", "P154-VinFletchersArrows\P154-VinFletchersArrows.csproj", "{C84CB7E6-648A-43F2-9FF2-7B797E284875}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P162-VinsTrouble", "..\P162-VinsTrouble\P162-VinsTrouble\P162-VinsTrouble.csproj", "{407B4C03-E283-4BBB-8919-F710FBEABCC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P162-VinsTrouble", "P162-VinsTrouble\P162-VinsTrouble.csproj", "{70C34D50-8AFD-457B-BDB6-219542140D91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P168-ThePropertiesOfArrows", "..\P168-ThePropertiesOfArrows\P168-ThePropertiesOfArrows\P168-ThePropertiesOfArrows.csproj", "{FFDAA3FF-C701-4825-A9A8-FC37D9235D94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P168-ThePropertiesOfArrows", "P168-ThePropertiesOfArrows\P168-ThePropertiesOfArrows.csproj", "{A8DB7F44-A4D1-43C0-AFDD-93EED2533A8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -142,14 +142,14 @@ Global
 		{C84CB7E6-648A-43F2-9FF2-7B797E284875}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C84CB7E6-648A-43F2-9FF2-7B797E284875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C84CB7E6-648A-43F2-9FF2-7B797E284875}.Release|Any CPU.Build.0 = Release|Any CPU
-		{407B4C03-E283-4BBB-8919-F710FBEABCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{407B4C03-E283-4BBB-8919-F710FBEABCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{407B4C03-E283-4BBB-8919-F710FBEABCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{407B4C03-E283-4BBB-8919-F710FBEABCC4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FFDAA3FF-C701-4825-A9A8-FC37D9235D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FFDAA3FF-C701-4825-A9A8-FC37D9235D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FFDAA3FF-C701-4825-A9A8-FC37D9235D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FFDAA3FF-C701-4825-A9A8-FC37D9235D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C34D50-8AFD-457B-BDB6-219542140D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C34D50-8AFD-457B-BDB6-219542140D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C34D50-8AFD-457B-BDB6-219542140D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C34D50-8AFD-457B-BDB6-219542140D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DB7F44-A4D1-43C0-AFDD-93EED2533A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DB7F44-A4D1-43C0-AFDD-93EED2533A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DB7F44-A4D1-43C0-AFDD-93EED2533A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DB7F44-A4D1-43C0-AFDD-93EED2533A8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
