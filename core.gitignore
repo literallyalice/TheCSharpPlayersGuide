@@ -27,8 +27,9 @@ x86/
 build/
 bld/
 [Bb]in/
+[Oo]bj/
 TheCSharpPlayersGuide/*/[Bb]in/
-*/[Oo]bj/
+TheCSharpPlayersGuide/*/[Oo]bj/
 [Oo]ut/
 msbuild.log
 msbuild.err
