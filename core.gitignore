@@ -28,7 +28,7 @@ build/
 bld/
 [Bb]in/
 TheCSharpPlayersGuide/*/[Bb]in/
-[Oo]bj/
+*/[Oo]bj/
 [Oo]ut/
 msbuild.log
 msbuild.err
