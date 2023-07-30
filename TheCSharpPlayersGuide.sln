@@ -48,6 +48,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P162-VinsTrouble", "P162-Vi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P168-ThePropertiesOfArrows", "P168-ThePropertiesOfArrows\P168-ThePropertiesOfArrows.csproj", "{A8DB7F44-A4D1-43C0-AFDD-93EED2533A8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P173-ArrowFactories", "P173-ArrowFactories\P173-ArrowFactories.csproj", "{ADE6B86C-D8C9-4967-82D1-3672984C6B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P191-ThePoint", "P191-ThePoint\P191-ThePoint.csproj", "{80323903-EB1A-413A-880B-968FE4D62BB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,6 +154,14 @@ Global
 		{A8DB7F44-A4D1-43C0-AFDD-93EED2533A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8DB7F44-A4D1-43C0-AFDD-93EED2533A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8DB7F44-A4D1-43C0-AFDD-93EED2533A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE6B86C-D8C9-4967-82D1-3672984C6B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE6B86C-D8C9-4967-82D1-3672984C6B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE6B86C-D8C9-4967-82D1-3672984C6B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE6B86C-D8C9-4967-82D1-3672984C6B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80323903-EB1A-413A-880B-968FE4D62BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80323903-EB1A-413A-880B-968FE4D62BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80323903-EB1A-413A-880B-968FE4D62BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80323903-EB1A-413A-880B-968FE4D62BB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
