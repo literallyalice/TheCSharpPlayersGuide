@@ -1,9 +1,8 @@
 ﻿Point myPoint = new Point(2, 3);
 Point yourPoint = new Point(-4, 0);
 
-Console.WriteLine($"Point 1: {myPoint.X}, {myPoint.Y}.");
-Console.WriteLine($"Point 2: {yourPoint.X}, {myPoint.Y}");
-
+Console.WriteLine($"My point is ({myPoint.X}, {myPoint.Y}).");
+Console.Write($"Your point is ({yourPoint.X}, {yourPoint.Y}).");
 
 class Point
 {
@@ -15,7 +14,5 @@ class Point
         Y = y;
     }
 
-    public Point() {
-        X = Y = 0;
-    }
+    public Point() : this(0,0) { }
 }
