@@ -62,6 +62,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P192-ThePasswordValidator",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P193-RockPaperScissorCRC", "P193-RockPaperScissorCRC\P193-RockPaperScissorCRC.csproj", "{13CC2009-6A1E-4512-AB5E-3E360DDE625D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P194-15Puzzle", "P194-15Puzzle\P194-15Puzzle.csproj", "{13E35B5D-FE91-4DE0-B4E2-41A1C9721036}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -192,6 +194,10 @@ Global
 		{13CC2009-6A1E-4512-AB5E-3E360DDE625D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13CC2009-6A1E-4512-AB5E-3E360DDE625D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13CC2009-6A1E-4512-AB5E-3E360DDE625D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E35B5D-FE91-4DE0-B4E2-41A1C9721036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E35B5D-FE91-4DE0-B4E2-41A1C9721036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E35B5D-FE91-4DE0-B4E2-41A1C9721036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E35B5D-FE91-4DE0-B4E2-41A1C9721036}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
