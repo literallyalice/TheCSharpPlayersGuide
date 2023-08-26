@@ -60,6 +60,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P192-TheLockedDoor", "P192-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P192-ThePasswordValidator", "P192-ThePasswordValidator\P192-ThePasswordValidator.csproj", "{7A800559-C737-4535-854B-87FF4AA64FD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P193-RockPaperScissorCRC", "P193-RockPaperScissorCRC\P193-RockPaperScissorCRC.csproj", "{13CC2009-6A1E-4512-AB5E-3E360DDE625D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -186,6 +188,10 @@ Global
 		{7A800559-C737-4535-854B-87FF4AA64FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A800559-C737-4535-854B-87FF4AA64FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A800559-C737-4535-854B-87FF4AA64FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13CC2009-6A1E-4512-AB5E-3E360DDE625D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CC2009-6A1E-4512-AB5E-3E360DDE625D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CC2009-6A1E-4512-AB5E-3E360DDE625D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CC2009-6A1E-4512-AB5E-3E360DDE625D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
