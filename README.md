@@ -6,3 +6,5 @@ Having mostly done programming sporadically and for game development I feel my f
 core concepts, terminology and OOP wasn't strong enough.
 
 In this repo you will find my solution to every challange in the book, their names prefixed by their page numbers.
+
+I will progress through this book slowly whilst working on other things.
