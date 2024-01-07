@@ -78,6 +78,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P217-RoboticInterface", "P2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P225-RoomCoordinates", "P225-RoomCoordinates\P225-RoomCoordinates.csproj", "{108F123D-2E77-4A25-BE3A-74D5AE8D945B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P231-WarPreparations", "P231-WarPreparations\P231-WarPreparations.csproj", "{F2887374-7F93-4C3F-B83D-B6FC6B15A480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P240-ColoredItems", "P240-ColoredItems\P240-ColoredItems.csproj", "{BCF31950-16F3-47D8-A7B1-048E9EB74CC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -240,6 +244,14 @@ Global
 		{108F123D-2E77-4A25-BE3A-74D5AE8D945B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{108F123D-2E77-4A25-BE3A-74D5AE8D945B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{108F123D-2E77-4A25-BE3A-74D5AE8D945B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2887374-7F93-4C3F-B83D-B6FC6B15A480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2887374-7F93-4C3F-B83D-B6FC6B15A480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2887374-7F93-4C3F-B83D-B6FC6B15A480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2887374-7F93-4C3F-B83D-B6FC6B15A480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF31950-16F3-47D8-A7B1-048E9EB74CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF31950-16F3-47D8-A7B1-048E9EB74CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF31950-16F3-47D8-A7B1-048E9EB74CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF31950-16F3-47D8-A7B1-048E9EB74CC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
