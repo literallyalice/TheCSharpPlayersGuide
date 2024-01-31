@@ -4,15 +4,18 @@ public class Room
 {
     public string Title { get; set; }
     public string RoomMessage { get; set; }
-    
     public string SenseMessage { get; set; }
+    
     public ConsoleColor Color { get; set; }
+    
+    public bool CanBeSensed()  => (this.SenseMessage != "");
     
     
     public Room() {
         Title = "Empty Room";
         RoomMessage = "You look around but find nothing.";
         SenseMessage = "";
+        
         Color = ConsoleColor.Gray;
     }
     
@@ -51,14 +54,9 @@ public class Room
             game.Map.GetRoomAtLocation(new Location(location.Row + 1, location.Column)),
             game.Map.GetRoomAtLocation(new Location(location.Row + 1, location.Column + 1))
         };
-        foreach (var room in adjacentRooms.OfType<Room>().Where(room => room.HasSenseMessage())) {
+        foreach (var room in adjacentRooms.OfType<Room>().Where(room => room.CanBeSensed())) {
             ConsoleHelper.WriteLine(room.SenseMessage, ConsoleColor.Magenta);
         }
-    }
-    
-    // Returns true if provided location has a sense message
-    bool HasSenseMessage() {
-        return this.SenseMessage != "";
     }
 }
 
