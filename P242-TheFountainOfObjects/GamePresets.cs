@@ -44,6 +44,7 @@ public static class GamePresets
                 map.SetRoomAtLocation(start, new EntranceRoom());
                 map.SetRoomAtLocation(new Location(0, 2), new FountainRoom());
                 map.SetRoomAtLocation(new Location(3, 3), new PitRoom());
+                map.AddMonsterToLocation(new Location(0,3), new Maelstrom());
                 
                 break;
             

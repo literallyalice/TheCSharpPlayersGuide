@@ -84,6 +84,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P240-ColoredItems", "P240-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P242-TheFountainOfObjects", "P242-TheFountainOfObjects\P242-TheFountainOfObjects.csproj", "{7841A213-3BBC-4F4D-B878-0BB52C5D29EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P249-TheRobotPilot", "P249-TheRobotPilot\P249-TheRobotPilot.csproj", "{07DE83B1-247D-470B-9C2F-3F34BD3EDBBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -258,6 +260,10 @@ Global
 		{7841A213-3BBC-4F4D-B878-0BB52C5D29EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7841A213-3BBC-4F4D-B878-0BB52C5D29EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7841A213-3BBC-4F4D-B878-0BB52C5D29EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DE83B1-247D-470B-9C2F-3F34BD3EDBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DE83B1-247D-470B-9C2F-3F34BD3EDBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DE83B1-247D-470B-9C2F-3F34BD3EDBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DE83B1-247D-470B-9C2F-3F34BD3EDBBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

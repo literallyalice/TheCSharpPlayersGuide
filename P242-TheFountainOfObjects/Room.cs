@@ -4,18 +4,18 @@ public class Room
 {
     public string Title { get; set; }
     public string RoomMessage { get; set; }
-    public string SenseMessage { get; set; }
+    public string SenseMessage { get; init; }
+
+    public List<Monster> Monsters { get; } = new List<Monster>();
+    public ConsoleColor Color { get; init; }
     
-    public ConsoleColor Color { get; set; }
-    
-    public bool CanBeSensed()  => (this.SenseMessage != "");
+    public bool CanBeSensed()  => SenseMessage != "" || Monsters.Count > 0;
     
     
     public Room() {
-        Title = "Empty Room";
-        RoomMessage = "You look around but find nothing.";
+        Title = "A Room";
+        RoomMessage = "You look around but find nothing special.";
         SenseMessage = "";
-        
         Color = ConsoleColor.Gray;
     }
     
@@ -56,6 +56,12 @@ public class Room
         };
         foreach (var room in adjacentRooms.OfType<Room>().Where(room => room.CanBeSensed())) {
             ConsoleHelper.WriteLine(room.SenseMessage, ConsoleColor.Magenta);
+            // If the room has monsters, write monsters sensemessage
+            if (room.Monsters.Count > 0) {
+                foreach (var monster in room.Monsters) {
+                    ConsoleHelper.WriteLine(monster.SenseMessage, ConsoleColor.DarkRed);
+                }
+            }
         }
     }
 }

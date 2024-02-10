@@ -48,6 +48,13 @@ public class Game
             if (CurrentRoom is PitRoom) {
                 Player.Kill((CurrentRoom as PitRoom)!.KillMessage);
             }
+
+            if (CurrentRoom.Monsters.Count > 0) {
+                for (var i = CurrentRoom.Monsters.Count - 1; i >= 0; i--)
+                {
+                    CurrentRoom.Monsters[i].HandleInteraction(this);
+                }
+            }
         }
 
         if (HasWon) {
@@ -133,6 +140,17 @@ public class Map
     
 
     public void SetRoomAtLocation(Location location, Room room) => Rooms[location.Row, location.Column] = room;
+
+    public void AddMonsterToLocation(Location location, Monster monster) =>
+        Rooms[location.Row, location.Column].Monsters.Add(monster);
+
+    public void RemoveMonsterFromLocation(Location location, Monster monster) =>
+        Rooms[location.Row, location.Column].Monsters.Remove(monster);
+
+    public void MoveMonster(Location oldLocation, Location newLocation, Monster monster) {
+        AddMonsterToLocation(newLocation, monster);
+        RemoveMonsterFromLocation(oldLocation, monster);
+    }
     
     public bool IsOnMap(Location location) =>
         location.Row >= 0 &&

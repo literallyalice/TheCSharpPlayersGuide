@@ -58,23 +58,23 @@ public class GameManager
     private bool CheckForWin() {
         var value = XTurn ? "X" : "O";
 
-        bool AllElementsAreValue(IEnumerable<int> indices) => indices.All(index => Board[index] == value);
-
         // check columns
-        if (AllElementsAreValue(new[] { 0, 1, 2 })) return true;
-        if (AllElementsAreValue(new[] { 3, 4, 5 })) return true;
-        if (AllElementsAreValue(new[] { 6, 7, 8 })) return true;
+        if (AreAllElementsIdentical(new[] { 0, 1, 2 })) return true;
+        if (AreAllElementsIdentical(new[] { 3, 4, 5 })) return true;
+        if (AreAllElementsIdentical(new[] { 6, 7, 8 })) return true;
 
         // check rows
-        if (AllElementsAreValue(new[] { 6, 3, 0 })) return true;
-        if (AllElementsAreValue(new[] { 7, 4, 1 })) return true;
-        if (AllElementsAreValue(new[] { 8, 5, 2 })) return true;
+        if (AreAllElementsIdentical(new[] { 6, 3, 0 })) return true;
+        if (AreAllElementsIdentical(new[] { 7, 4, 1 })) return true;
+        if (AreAllElementsIdentical(new[] { 8, 5, 2 })) return true;
 
         // check diagonals
-        if (AllElementsAreValue(new[] { 6, 4, 2 })) return true;
-        if (AllElementsAreValue(new[] { 8, 4, 0 })) return true;
+        if (AreAllElementsIdentical(new[] { 6, 4, 2 })) return true;
+        if (AreAllElementsIdentical(new[] { 8, 4, 0 })) return true;
 
         return false;
+
+        bool AreAllElementsIdentical(IEnumerable<int> indices) => indices.All(index => Board[index] == value);
     }
 
 
