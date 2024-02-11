@@ -45,6 +45,7 @@ public static class GamePresets
                 map.SetRoomAtLocation(new Location(0, 2), new FountainRoom());
                 map.SetRoomAtLocation(new Location(3, 3), new PitRoom());
                 map.AddMonsterToLocation(new Location(0,3), new Maelstrom());
+                map.AddMonsterToLocation(new Location(2, 0), new Amarok());
                 
                 break;
             
@@ -59,6 +60,8 @@ public static class GamePresets
                 map.SetRoomAtLocation(new Location(2, 4), new FountainRoom());
                 map.SetRoomAtLocation(new Location(2, 5), new PitRoom());
                 map.SetRoomAtLocation(new Location(5, 3), new PitRoom());
+                map.AddMonsterToLocation(new Location(0,3), new Maelstrom());
+                map.AddMonsterToLocation(new Location(2, 0), new Amarok());
                 
                 break;
             
@@ -75,6 +78,9 @@ public static class GamePresets
                 map.SetRoomAtLocation(new Location(0, 7), new PitRoom());
                 map.SetRoomAtLocation(new Location(6, 3), new PitRoom());
                 map.SetRoomAtLocation(new Location(2, 7), new PitRoom());
+                
+                map.AddMonsterToLocation(new Location(0,6), new Maelstrom());
+                map.AddMonsterToLocation(new Location(2, 0), new Amarok());
 
                 break;
             
