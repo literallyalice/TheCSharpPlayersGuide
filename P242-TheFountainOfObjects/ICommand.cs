@@ -3,15 +3,16 @@ using System.Reflection;
 
 namespace P242_TheFountainOfObjects;
 
-public record Commands
+public record CommandHelper
 {
-    public static List<Type> CommandList = new List<Type>
+    public static List<Type> GetTypesImplementingInterface<T>()
     {
-        typeof(MoveCommand),
-        typeof(ShootCommand),
-        typeof(EnableFountainCommand),
-        typeof(HelpCommand)
-    };
+        var interfaceType = typeof(T);
+        return AppDomain.CurrentDomain.GetAssemblies()
+            .SelectMany(a => a.GetTypes())
+            .Where(t => interfaceType.IsAssignableFrom(t) && t is { IsInterface: false, IsAbstract: false })
+            .ToList();
+    }
 }
 
 public interface ICommand

@@ -111,7 +111,7 @@ public class Game
             if (input is "shoot east" or "shoot right") return new ShootCommand(Direction.East);
             if (input is "shoot west" or "shoot left") return new ShootCommand(Direction.West);
 
-            if (input is "help") return new HelpCommand(Commands.CommandList);
+            if (input is "help") return new HelpCommand(CommandHelper.GetTypesImplementingInterface<ICommand>());
 
 
             ConsoleHelper.WriteLine(
