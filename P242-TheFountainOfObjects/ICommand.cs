@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace P242_TheFountainOfObjects;
 
-public record CommandHelper
+public static class CommandHelper
 {
     public static List<Type> GetTypesImplementingInterface<T>()
     {
