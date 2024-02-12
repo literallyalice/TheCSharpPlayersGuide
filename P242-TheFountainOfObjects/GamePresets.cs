@@ -31,6 +31,7 @@ public static class GamePresets
     private static Game CreateGame(MapSize mapSize) {
         Map map;
         Location start;
+        int arrows;
         
         switch (mapSize) {
             
@@ -39,6 +40,7 @@ public static class GamePresets
                 // Map Size and location settings
                 map = new Map(4, 4);
                 start = new Location(0, 0);
+                arrows = 3;
                 
                 // Room placements
                 map.SetRoomAtLocation(start, new EntranceRoom());
@@ -54,6 +56,7 @@ public static class GamePresets
                 // Map Size and location settings
                 map = new Map(6, 6);
                 start = new Location(5, 0);
+                arrows = 5;
                 
                 // Room placements
                 map.SetRoomAtLocation(start, new EntranceRoom());
@@ -70,6 +73,7 @@ public static class GamePresets
                 // Map Size and location settings
                 map = new Map(8, 8);
                 start = new Location(3, 7);
+                arrows = 8;
                 
                 // Room placements
                 map.SetRoomAtLocation(start, new EntranceRoom());
@@ -85,6 +89,6 @@ public static class GamePresets
                 break;
             
         }
-        return new Game(map, new Player(start));
+        return new Game(map, new Player(start, arrows));
     }
 }

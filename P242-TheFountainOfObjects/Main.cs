@@ -14,8 +14,11 @@ public class Player
 
     public string CauseOfDeath { get; private set; } = "";
     
-    public Player(Location start) {
+    public int Arrows { get; set; }
+    
+    public Player(Location start, int arrows) {
         Location = start;
+        Arrows = arrows;
     }
 
     public void Kill(string cause) {
@@ -39,6 +42,7 @@ public class Game
     }
 
     public void Run() {
+        WelcomeMessage();
         
         while (!HasWon && Player.IsAlive) {
             DisplayStatus();
@@ -68,10 +72,20 @@ public class Game
         }
     }
 
+    private void WelcomeMessage() {
+        ConsoleHelper.WriteLine("You enter the Cavern of Objects, a maze of rooms filled with dangerous pits in search of the Fountain of Objects.", ConsoleColor.DarkMagenta);
+        ConsoleHelper.WriteLine("Light is visible only in the entrance, and no other light is seen anywhere in the caverns.", ConsoleColor.DarkMagenta);
+        ConsoleHelper.WriteLine("You must navigate the Caverns with your other senses.", ConsoleColor.DarkMagenta);
+        ConsoleHelper.WriteLine("Find the Fountain of Objects, activate it, and return to the entrance.", ConsoleColor.DarkMagenta);
+        ConsoleHelper.WriteLine("Look out for pits. You will smell something foul if a pit is in an adjacent room. If you enter a room with a pit, you will die.", ConsoleColor.DarkMagenta);
+        ConsoleHelper.WriteLine("Maelstroms are violent forces of sentient wind. Entering a room with one could transport you to any other location in the caverns. You will be able to hear their growling and groaning in nearby rooms.", ConsoleColor.DarkMagenta);
+        ConsoleHelper.WriteLine("You carry with you a bow and a quiver of arrows. You can use them to shoot monsters in the caverns but be warned: you have a limited supply.", ConsoleColor.DarkMagenta);
+    }
     private void DisplayStatus() {
         ConsoleHelper.WriteLine("--------------------------------------------------------------", ConsoleColor.Gray);
-        ConsoleHelper.WriteLine($"You are in the room at (Row:{Player.Location.Row}, Col:{Player.Location.Column}).",
+        ConsoleHelper.WriteLine($"You are in the room at (Row:{Player.Location.Row}, Col:{Player.Location.Column}). | Arrows: {Player.Arrows} | 'help' for a list of commands",
             ConsoleColor.Gray);
+        
         CurrentRoom.Messages(this);
 
         // sense handling? maybe let all the room variations have two methods,
@@ -83,34 +97,29 @@ public class Game
         while (true) {
             ConsoleHelper.Write("> ", ConsoleColor.White);
             Console.ForegroundColor = ConsoleColor.Cyan;
-            string? input = Console.ReadLine();
+            var input = Console.ReadLine()?.ToLower();
+            
+            if (input is "move north" or "move up") return new MoveCommand(Direction.North);
+            if (input is "move south" or "move down") return new MoveCommand(Direction.South);
+            if (input is "move east" or "move right") return new MoveCommand(Direction.East);
+            if (input is "move west" or "move left") return new MoveCommand(Direction.West);
+            
+            if (input is "enable fountain") return new EnableFountainCommand();
+            
+            if (input is "shoot north" or "shoot up") return new ShootCommand(Direction.North);
+            if (input is "shoot south" or "shoot down") return new ShootCommand(Direction.South);
+            if (input is "shoot east" or "shoot right") return new ShootCommand(Direction.East);
+            if (input is "shoot west" or "shoot left") return new ShootCommand(Direction.West);
 
-            switch (input) {
-                case "move north":
-                case "move up":
-                    return new MoveCommand(Direction.North);
-                
-                case "move south":
-                case "move down":
-                    return new MoveCommand(Direction.South);
-                
-                case "move west":
-                case "move left":
-                    return new MoveCommand(Direction.West);
-                
-                case "move east":
-                case "move right":
-                    return new MoveCommand(Direction.East);
-                
-                case "enable fountain":
-                    return new EnableFountainCommand();
-                
-                default:
-                    ConsoleHelper.WriteLine($"I did not understand '{input}'.", ConsoleColor.Red);
-                    break;
-            }
+            if (input is "help") return new HelpCommand(Commands.CommandList);
+
+
+            ConsoleHelper.WriteLine(
+                string.IsNullOrEmpty(input) ? "You have to write a command." : $"I did not understand '{input}'.",
+                ConsoleColor.Red);
         }
     }
+
 
     public bool HasWon => CurrentRoom is EntranceRoom && IsFountainOn;
 

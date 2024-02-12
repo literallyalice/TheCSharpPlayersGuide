@@ -6,6 +6,7 @@ public abstract class Monster
     public string SenseMessage { get; init; } = "Uninitiated SenseMessage";
 
     public abstract void HandleInteraction(Game game);
+    public abstract void MonsterDeath(Game game, Location location);
 }
 
 public class Maelstrom : Monster
@@ -34,9 +35,11 @@ public class Maelstrom : Monster
                 Math.Clamp(oldLocation.Column - 2, 0, game.Map.Columns - 1)),
             this);
         ConsoleHelper.WriteLine($"The {Name} moved too.", ConsoleColor.Yellow);
-        
-        
+    }
 
+    public override void MonsterDeath(Game game, Location location) {
+        ConsoleHelper.WriteLine($"You have killed a {Name}.", ConsoleColor.DarkRed);
+        game.Map.RemoveMonsterFromLocation(location, this);
     }
 }
 
@@ -52,5 +55,10 @@ public class Amarok : Monster
 
     public override void HandleInteraction(Game game) {
         game.Player.Kill(KillMessage);
+    }
+    
+    public override void MonsterDeath(Game game, Location location) {
+        ConsoleHelper.WriteLine($"You have killed a {Name}.", ConsoleColor.DarkRed);
+        game.Map.RemoveMonsterFromLocation(location, this);
     }
 }
