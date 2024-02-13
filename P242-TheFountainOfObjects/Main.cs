@@ -34,6 +34,7 @@ public class Game
     public Player Player { get; }
     public bool IsFountainOn { get; set; }
 
+    private DateTime _startTime;
     
     public Game(Map map, Player player) {
 
@@ -42,6 +43,7 @@ public class Game
     }
 
     public void Run() {
+        _startTime = DateTime.Now;
         WelcomeMessage();
         
         while (!HasWon && Player.IsAlive) {
@@ -70,6 +72,29 @@ public class Game
             ConsoleHelper.WriteLine(Player.CauseOfDeath, ConsoleColor.Red);
             ConsoleHelper.WriteLine("You lost.", ConsoleColor.Red);
         }
+
+        
+        ConsoleHelper.WriteLine($"You spent {FormatTimeSpan(DateTime.Now - _startTime)} in the cavern.", ConsoleColor.White);
+    }
+
+    private string FormatTimeSpan(TimeSpan timeSpan) {
+        var formattedTime = "";
+
+        if (timeSpan.Days > 0) {
+            formattedTime += $"{timeSpan.Days} day{(timeSpan.Days != 1 ? "s" : "")}, ";
+        }
+
+        if (timeSpan.Hours > 0) {
+            formattedTime += $"{timeSpan.Hours} hour{(timeSpan.Hours != 1 ? "s" : "")}, ";
+        }
+
+        if (timeSpan.Minutes > 0) {
+            formattedTime += $"{timeSpan.Minutes} minute{(timeSpan.Minutes != 1 ? "s" : "")}, ";
+        }
+
+        formattedTime += $"{timeSpan.Seconds} second{(timeSpan.Seconds != 1 ? "s" : "")} ";
+        formattedTime = formattedTime.TrimEnd(',', ' ');
+        return formattedTime;
     }
 
     private void WelcomeMessage() {
