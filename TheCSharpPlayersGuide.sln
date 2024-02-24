@@ -88,6 +88,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P249-TheRobotPilot", "P249-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P255-ListsOfCommands", "P255-ListsOfCommands\P255-ListsOfCommands.csproj", "{6312153C-C90F-4DD9-B5CF-DF6010ED194C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P270E1-TheFued", "P270E1-TheFued\P270E1-TheFued.csproj", "{D4C2F389-FA09-4FDD-9F78-BABD55E781EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P270E2-DuelingTraditions", "P270E2-DuelingTraditions\P270E2-DuelingTraditions.csproj", "{9BE20ADF-9A6B-4F38-84E2-E2E036FCF78F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -270,6 +274,14 @@ Global
 		{6312153C-C90F-4DD9-B5CF-DF6010ED194C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6312153C-C90F-4DD9-B5CF-DF6010ED194C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6312153C-C90F-4DD9-B5CF-DF6010ED194C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C2F389-FA09-4FDD-9F78-BABD55E781EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C2F389-FA09-4FDD-9F78-BABD55E781EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C2F389-FA09-4FDD-9F78-BABD55E781EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C2F389-FA09-4FDD-9F78-BABD55E781EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE20ADF-9A6B-4F38-84E2-E2E036FCF78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE20ADF-9A6B-4F38-84E2-E2E036FCF78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE20ADF-9A6B-4F38-84E2-E2E036FCF78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE20ADF-9A6B-4F38-84E2-E2E036FCF78F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
