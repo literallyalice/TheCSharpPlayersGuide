@@ -92,6 +92,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P270E1-TheFued", "P270E1-Th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P270E2-DuelingTraditions", "P270E2-DuelingTraditions\P270E2-DuelingTraditions.csproj", "{9BE20ADF-9A6B-4F38-84E2-E2E036FCF78F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P276-SaferNumberCrunching", "P276-SaferNumberCrunching\P276-SaferNumberCrunching.csproj", "{7AAC456D-7DE6-4594-973E-02FAF317E379}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -282,6 +284,10 @@ Global
 		{9BE20ADF-9A6B-4F38-84E2-E2E036FCF78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BE20ADF-9A6B-4F38-84E2-E2E036FCF78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BE20ADF-9A6B-4F38-84E2-E2E036FCF78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AAC456D-7DE6-4594-973E-02FAF317E379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAC456D-7DE6-4594-973E-02FAF317E379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAC456D-7DE6-4594-973E-02FAF317E379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAC456D-7DE6-4594-973E-02FAF317E379}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
