@@ -96,6 +96,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P276-SaferNumberCrunching",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P278-BetterRandom", "P278-BetterRandom\P278-BetterRandom.csproj", "{C3D80053-AAD6-4F10-8D32-3608EB5C1648}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P290-ExeptisGame", "P290-ExeptisGame\P290-ExeptisGame.csproj", "{5B234CF8-2C33-4DD7-A976-7B7D4D1609CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -294,6 +296,10 @@ Global
 		{C3D80053-AAD6-4F10-8D32-3608EB5C1648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3D80053-AAD6-4F10-8D32-3608EB5C1648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3D80053-AAD6-4F10-8D32-3608EB5C1648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B234CF8-2C33-4DD7-A976-7B7D4D1609CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B234CF8-2C33-4DD7-A976-7B7D4D1609CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B234CF8-2C33-4DD7-A976-7B7D4D1609CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B234CF8-2C33-4DD7-A976-7B7D4D1609CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
