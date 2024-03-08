@@ -4,13 +4,12 @@ Console.WriteLine("Welcome, select a sieve. (1. IsEven, 2. IsPositive, 3. IsMult
 Console.Write("> ");
 int.TryParse(Console.ReadLine(), out int input);
 
-Func<int, bool> operation;
 var mySieve = input switch
 {
     1 => new Sieve(IsEven),
     2 => new Sieve(IsPositive),
     3 => new Sieve(IsMultipleOfTen),
-    _ or 0 => throw new ArgumentOutOfRangeException()
+    _ => throw new ArgumentOutOfRangeException()
 };
 
 while (true) {
