@@ -1,8 +1,6 @@
-﻿BlockCoordinate block1 = new BlockCoordinate(0, 0);
-BlockOffset block2 = new BlockOffset(1, 1);
-block1 += Direction.South;
-block1 += block2;
-Console.WriteLine($"{block1}");
+﻿//BlockCoordinate block1 = new BlockCoordinate(0, 0);
+BlockOffset block2 = Direction.South;
+Console.WriteLine(block2);
 
 
 
@@ -19,9 +17,21 @@ public record BlockCoordinate(int Row, int Column)
             Direction.West => new BlockCoordinate(start.Row, start.Column - 1),
             _ => new BlockCoordinate(start.Row, start.Column)
         };
+
+    public int this[int index] => index == 0 ? Row : Column;
 };
 
-public record BlockOffset(int RowOffset, int ColumnOffset);
+public record BlockOffset(int RowOffset, int ColumnOffset)
+{
+    public static implicit operator BlockOffset(Direction dir)
+        => dir switch {
+            Direction.North => new BlockOffset(-1, 0),
+            Direction.South => new BlockOffset(1, 0),
+            Direction.East => new BlockOffset(0, 1),
+            Direction.West => new BlockOffset(0, -1),
+            _ => new BlockOffset(0,0)
+        };
+}
 
 public enum Direction
 {

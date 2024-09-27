@@ -3,7 +3,8 @@ BlockOffset block2 = new BlockOffset(1, 1);
 block1 += Direction.South;
 block1 += block2;
 Console.WriteLine($"{block1}");
-
+Console.WriteLine($"{block1[0]}");
+Console.WriteLine($"{block1[1]}");
 
 
 public record BlockCoordinate(int Row, int Column)
@@ -19,6 +20,8 @@ public record BlockCoordinate(int Row, int Column)
             Direction.West => new BlockCoordinate(start.Row, start.Column - 1),
             _ => new BlockCoordinate(start.Row, start.Column)
         };
+
+    public int this[int index] => index == 0 ? Row : Column;
 };
 
 public record BlockOffset(int RowOffset, int ColumnOffset);

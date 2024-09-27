@@ -108,6 +108,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P315-TheLongGame", "P315-Th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P331-NavigatingOperandCity", "P331-NavigatingOperandCity\P331-NavigatingOperandCity.csproj", "{460E1D6F-0594-459F-907F-A28562CB5463}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P332-IndexingOperandCity", "P332-IndexingOperandCity\P332-IndexingOperandCity.csproj", "{F4E257CD-F0F3-4FA0-97DD-43DBB5FAB282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P332-ConvertingDirectionsToOffsets", "P332-ConvertingDirectionsToOffsets\P332-ConvertingDirectionsToOffsets.csproj", "{32C2348C-C12C-470E-8717-DD33DAAA00CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -330,6 +334,14 @@ Global
 		{460E1D6F-0594-459F-907F-A28562CB5463}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{460E1D6F-0594-459F-907F-A28562CB5463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{460E1D6F-0594-459F-907F-A28562CB5463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E257CD-F0F3-4FA0-97DD-43DBB5FAB282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E257CD-F0F3-4FA0-97DD-43DBB5FAB282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E257CD-F0F3-4FA0-97DD-43DBB5FAB282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E257CD-F0F3-4FA0-97DD-43DBB5FAB282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C2348C-C12C-470E-8717-DD33DAAA00CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C2348C-C12C-470E-8717-DD33DAAA00CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C2348C-C12C-470E-8717-DD33DAAA00CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C2348C-C12C-470E-8717-DD33DAAA00CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
