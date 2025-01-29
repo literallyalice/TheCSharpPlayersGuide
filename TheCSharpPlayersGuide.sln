@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P19-HelloWorld", "P19-HelloWorld\P19-HelloWorld.csproj", "{EA79371E-F240-420B-BAA4-D62D43DCF59E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P24E2-TheMakingsOfAProgrammer", "P24E2-TheMakingsOfAProgrammer\P24E2-TheMakingsOfAProgrammer.csproj", "{D16C9D47-8809-4024-8326-D87755AEB532}"
@@ -111,6 +112,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P332-IndexingOperandCity", "P332-IndexingOperandCity\P332-IndexingOperandCity.csproj", "{F4E257CD-F0F3-4FA0-97DD-43DBB5FAB282}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P332-ConvertingDirectionsToOffsets", "P332-ConvertingDirectionsToOffsets\P332-ConvertingDirectionsToOffsets.csproj", "{32C2348C-C12C-470E-8717-DD33DAAA00CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P342-TheThreeLenses", "P342-TheThreeLenses\P342-TheThreeLenses.csproj", "{BAF42D92-9E2E-4441-A434-64537DC8165C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P349-TheRepeatingStream", "P349-TheRepeatingStream\P349-TheRepeatingStream.csproj", "{CF285158-7C41-4EAE-AC83-3ACB4CB8590A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -342,6 +347,14 @@ Global
 		{32C2348C-C12C-470E-8717-DD33DAAA00CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32C2348C-C12C-470E-8717-DD33DAAA00CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32C2348C-C12C-470E-8717-DD33DAAA00CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF42D92-9E2E-4441-A434-64537DC8165C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF42D92-9E2E-4441-A434-64537DC8165C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF42D92-9E2E-4441-A434-64537DC8165C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF42D92-9E2E-4441-A434-64537DC8165C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF285158-7C41-4EAE-AC83-3ACB4CB8590A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF285158-7C41-4EAE-AC83-3ACB4CB8590A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF285158-7C41-4EAE-AC83-3ACB4CB8590A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF285158-7C41-4EAE-AC83-3ACB4CB8590A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
