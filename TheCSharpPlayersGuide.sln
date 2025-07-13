@@ -125,6 +125,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P365-UniterOfAdds", "P365-U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P366-TheRobotFactory", "P366-TheRobotFactory\P366-TheRobotFactory.csproj", "{668E752C-909A-4743-AFC6-78CB5858FFAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P397-ColoredConsole", "P397-ColoredConsole\P397-ColoredConsole.csproj", "{932FC336-3A9D-477E-8EAA-0A3DE8666BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P397-ColoredConsoleLibrary", "P397-ColoredConsoleLibrary\P397-ColoredConsoleLibrary.csproj", "{BE32D5FB-9804-42EE-8FA0-D83663525631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P398-TheGreatHumanizer", "P398-TheGreatHumanizer\P398-TheGreatHumanizer.csproj", "{2AC476BC-E025-4073-A616-B8F415309E49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -379,6 +385,18 @@ Global
 		{668E752C-909A-4743-AFC6-78CB5858FFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{668E752C-909A-4743-AFC6-78CB5858FFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{668E752C-909A-4743-AFC6-78CB5858FFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932FC336-3A9D-477E-8EAA-0A3DE8666BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932FC336-3A9D-477E-8EAA-0A3DE8666BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932FC336-3A9D-477E-8EAA-0A3DE8666BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932FC336-3A9D-477E-8EAA-0A3DE8666BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE32D5FB-9804-42EE-8FA0-D83663525631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE32D5FB-9804-42EE-8FA0-D83663525631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE32D5FB-9804-42EE-8FA0-D83663525631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE32D5FB-9804-42EE-8FA0-D83663525631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC476BC-E025-4073-A616-B8F415309E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC476BC-E025-4073-A616-B8F415309E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC476BC-E025-4073-A616-B8F415309E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC476BC-E025-4073-A616-B8F415309E49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
