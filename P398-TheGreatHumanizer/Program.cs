@@ -1,4 +1,3 @@
 ﻿using Humanizer;
 
-    
-Console.WriteLine(Humanizer.DateHumanizeExtensions.Humanize(DateTime.Now)
+Console.WriteLine(DateTime.Now.AddHours(30).Humanize());
